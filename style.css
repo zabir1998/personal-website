@@ -66,7 +66,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,salmon,orange);
+    background-image: linear-gradient(45deg,pink, palevioletred);
     color: white;
     font-weight: 700;
     padding: 10px 20px;
@@ -100,9 +100,14 @@ section{
     color: white;
     padding-top: 80px;
 }
+.mail{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
 .message-box{
     text-decoration: none;
-    background-color: salmon;
+    background-image: linear-gradient(45deg,pink, palevioletred);
     color: white;
     font-weight: 700;
     padding: 15px 25px;
@@ -111,6 +116,38 @@ section{
 }
 #send{
     color: white;
+}
+.exp{
+    text-align: center;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 80%;
+
+}
+.experience-area{
+background-image: url(images/biography-bg.png);
+background-repeat: no-repeat;
+background-position: right;
+background-size: cover;
+}
+.pro-area{
+    font-size: 20px;
+    color:  palevioletred;
+    text-align: left;
+}
+#full-stack{
+border-top: 7px solid;
+border-left: 7px solid;
+border-image: linear-gradient(180deg,pink, palevioletred);
+border-image-slice: 1;
+}
+#baby-web{
+border-left: 7px solid;
+border-bottom: 7px solid;
+border-image: linear-gradient(180deg,blue,cyan);
+border-image-slice: 1;
 }
 footer{
     text-align: center;
